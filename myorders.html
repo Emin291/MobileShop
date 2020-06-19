@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en" >
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="style1/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style1/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
-</head>
-<body style="">
-  <header>
+    <title>Hello, world!</title>
+  </head>
+  <body class="body">
+    <header>
 
 
 
@@ -85,7 +85,7 @@
           <a class="dropdown-item"  data-toggle="modal" data-target="#login"href="#">Log In</a>
           <a class="dropdown-item" href="#"data-toggle="modal" data-target="#register">Register</a>
           <a class="dropdown-item" href="acount.html">Acount settings</a>
-          <a class="dropdown-item" href="myorders.html">My orders</a>
+          <a class="dropdown-item" href="#">My orders</a>
         </div>
     
     </form>
@@ -106,7 +106,7 @@
      <ul class=" navbar-nav mr-auto">
 <li class="col-2  mr-lg-3 mr-xl-4    col nav-item dropdown ">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Apple
+         Apple
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="bootstrap2.html">Telephones</a>
@@ -177,264 +177,100 @@
 </div>
 </div>
 </header>
-<main>
+   <main>
+    <div class="container ">
+      <div class="row  my-3" style="background-color: white; border-radius: 13px;">
+        <h1 class=" my-3" >My Orders</h1>
 
+     <table class="table"style="border-radius: 13px;">
+  <thead>
+    <tr>
+      <th scope="col"style="border-bottom: none;">Name</th>
+      <th scope="col"style="border-bottom: none;">Color</th>
+      <th scope="col"style="border-bottom: none;">Price</th>
+      <th class="d-none d-md-block "style="border-bottom: none;" scope="col">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Iphone XR</th>
+      <td>Black</td>
+      <td>400$</td>
+      <td class="d-none d-md-block">06.06.2020-20.06.2020</td>
+    </tr>
+    <tr>
+      <td scope="row">Case for Iphone XR</th>
+      <td>Black,Yellow,Blue</td>
+      <td>20$</td>
+      <td class="d-none d-md-block">11.07.2020-20.07.2020</td>
+    </tr>
+    <tr>
+      <td scope="row">Earphone</th>
+      <td>White</td>
+      <td>10$</td>
+      <td class="d-none d-md-block">11.08.2020-20.08.2020</td>
+    </tr>
+  </tbody>
+</table>
 
-
-  <div class="container"> 
-    <div class="row">
-
-      <nav  class="col-12 col-xl-9 mt-3 pl-lg-0 px-0"  aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          
-          <li class="breadcrumb-item active" aria-current="page">Telephones of Iphone</li>
-        </ol>
-      </nav>
-<div class="col-xl-3 col-12" >
-  <div class="mt-3 input-group mb-3">
-    <label class="mt-1 mr-1 font-weight-bolder" style="font-size: 20px;" for="inputGroupSelect02">Sort by:</label>
-  <select class="custom-select" id="inputGroupSelect02">
-
-    
-    <option value="1">Price:Low to high</option>
-    <option value="2">Price:Low to high</option>
-    
-  </select>
-</div>
-</div>
-    
-
-    <div class="row">
-
-      
-       <div class="d-none d-xl-block col-xl-4 accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Select Color
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-       <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck1">
-  <label class="custom-control-label" for="customCheck1">Black</label>
-</div>
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">White</label>
-</div>
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck3">
-  <label class="custom-control-label" for="customCheck3">Gold</label>
-</div>
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck4">
-  <label class="custom-control-label" for="customCheck4">Black</label>
-</div>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         Select inner memory
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-       <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">3/64GB</label>
-</div>
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">3/128GB</label>
-</div>
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="customCheck2">
-  <label class="custom-control-label" for="customCheck2">3/256Gb</label>
-</div>
-      </div>
-    </div>
-  </div>
-  <div class="mt-3 custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitch1">
-  <label class="custom-control-label" for="customSwitch1">With images</label>
-</div>
-<div class="mt-1 custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitch2">
-  <label class="custom-control-label" for="customSwitch2">Free shipping</label>
 </div>
 
-
-
-      </div>
-      <div class=" col-xl-8 col-12 " >
-        <div class="d-none d-xl-block col-12 card1 card  mb-3" style="">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc"class="card-img" alt="...">
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a class="mb-1" href="bootstrap3.html"style="color: black; border:none;font-size: 25px;">Iphone XR</a>
-                <p class="card-text">Operating system (OS)-iOS 12, updated to iOS 12.1.3
-               </p>
-               <p class="card-text">OInner memory-64/128/256 GB, 3 GB RAM
-               </p>
-               <p class="card-text">
-               Battery-2942 mAh, Non-removable, Li-Ion
-             </p>
-              </div>
-            </div>
-
-            <div class="col-3">
-              <p class="card-text mt-5  ml-2  " style="
-        font-size: 60px; color:#4dd2ff;"  > $905 </p>
-<a class=" text-center ml-1  text-center btn btn-primary" style="width: 150px; " href="shop.html" role="button">Add to card</a>
-             </div>
-          </div>
-    </div>
+<div class="row mb-5 d-flex"style="background-color: white; border:2px white solid;border-radius: 13px;">
+  <h1 class="col-12  my-3 ">WishList</h1>
+  
         
-        <div class="d-none d-xl-block card1 card  mb-3" style="">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc"class="card-img" alt="...">
-            </div>
-            <div class="col-md-5">
-              <div class="card-body">
-                <a class="mb-1" href="bootstrap3.html"style="color: black; border:none;font-size: 25px;">Iphone XR</a>
-                <p class="card-text">Operating system (OS)-iOS 12, updated to iOS 12.1.3
-               </p>
-               <p class="card-text">OInner memory-64/128/256 GB, 3 GB RAM
-               </p>
-               <p class="card-text">
-               Battery-2942 mAh, Non-removable, Li-Ion
-             </p>
-              </div>
-            </div>
-            <div class="col-3">
-              <p class="card-text mt-5  ml-2  " style="
-        font-size: 60px; color:#4dd2ff;"  > $905 </p>
-<a class=" text-center ml-1  text-center btn btn-primary" style="width: 150px; " href="shop.html" role="button">Add to card</a>
-             </div>
-          </div>
-        </div>
-        
-        
-         <div class="d-none d-xl-block card1 card  mb-3" style="">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc"class="card-img" alt="...">
-            </div>
-
-            <div class="col-md-5">
-              <div class="card-body">
-                <a class="mb-1" href="bootstarp3.html"style="color: black; border:none;font-size: 25px;">Iphone XR</a>
-                <p class="card-text">Operating system (OS)-iOS 12, updated to iOS 12.1.3
-               </p>
-               <p class="card-text">OInner memory-64/128/256 GB, 3 GB RAM
-               </p>
-               <p class="card-text">
-               Battery-2942 mAh, Non-removable, Li-Ion
-             </p>
-              </div>
-            </div>
-            <div class="col-3">
-              <p class="card-text mt-5  ml-2  " style="
-        font-size: 60px; color:#4dd2ff;"  > $905 </p>
-<a class=" text-center ml-1  text-center btn btn-primary" style="width: 150px; " href="shop.html" role="button">Add to card</a>
-
-             </div>
-          </div>
-       </div>
-         <div class="d-none d-xl-block card1 card  mb-3" style="">
-          <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img" alt="...">
-            </div>
-
-            <div class="col-md-5">
-              <div class="card-body">
-                <a class="mb-1" href="bootstrap3.html"style="color: black; border:none;font-size: 25px;">Iphone XR</a>
-                <p class="card-text">Operating system (OS)-iOS 12, updated to iOS 12.1.3
-               </p>
-               <p class="card-text">OInner memory-64/128/256 GB, 3 GB RAM
-               </p>
-               <p class="card-text">
-               Battery-2942 mAh, Non-removable, Li-Ion
-             </p>
-              </div>
-            </div>
-            <div class="col-3">
-              <p class="card-text mt-5  ml-2  " style="
-        font-size: 60px; color:#4dd2ff;"  > $905 </p>
-<a class=" text-center ml-1  text-center btn btn-primary" style="width: 150px; " href="shop.html" role="button">Add to card</a>
-             
-         </div>
-        </div>
-      </div>
-</div>
-</div>
-</div>
-
-       <div class= "row d-flex mb-2">
-           <div class="d-block d-xl-none col-6 card" >
-  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img-top" alt="...">
-  <div class="text-center card-body">
-    <a  href="bootstrap3.html"style="font-size: 25px; border:none; color:black">Iphone XR</a>
-     <p class="card-text text-center mt-5 mb-5" style="
-        font-size: 30px; color:#4dd2ff;"  > $780 </p>
-    
-  </div>
-</div>
-
-<div class="d-block d-xl-none col-6 card" >
-  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img">
-  <div class="card-body text-center">
-    <a  href="bootstrap3.html"style="font-size: 25px; border:none; color:black">Iphone XR</a>
-     <p class="card-text text-center mt-5 mb-5" style="
-        font-size: 30px; color:#4dd2ff;"  > $780 </p>
-    </div>
-  </div>
-</div>
- 
-
-
-<div class= "row d-flex mb-3">
-
- <div class="d-block d-xl-none col-6 card" >
-  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img-top" alt="...">
-  <div class="text-center card-body">
-    <a  href="bootstrap3.html"style="font-size: 25px; border:none; color:black">Iphone XR</a>
-     <p class="card-text text-center mt-5 mb-5" style="
-        font-size: 30px; color:#4dd2ff;"  > $780 </p>
-    
-  </div>
-</div>
- <div class="d-block d-xl-none col-6 card" >
+           
+           <div class=" col-lg-3  d-none d-lg-block    card" >
   <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img" class="card-img-top" alt="...">
   <div class="text-center card-body">
-    <a  href="bootstrap3.html"style="font-size: 25px; border:none; color:black">Iphone XR</a>
+    <a  href="#"style="font-size: 25px; border:none; color:black">Iphone XR</a>
      <p class="card-text text-center mt-5 mb-5" style="
         font-size: 30px; color:#4dd2ff;"  > $780 </p>
-    
+    <img class="mb-4" src="https://pngicon.ru/file/uploads/1_2789-128x128.png" width="30"height="30">
   </div>
 </div>
-       </div>
-  
-</main>
 
+<div class=" col-md-4 col-lg-3  col-12  card" >
+  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img" class="card-img-top" alt="...">
+  <div class="text-center card-body">
+    <a  href="#"style="font-size: 25px; border:none; color:black">Iphone XR</a>
+     <p class="card-text text-center mt-5 mb-5" style="
+        font-size: 30px; color:#4dd2ff;"  > $780 </p>
+    <img class="mb-4" src="https://pngicon.ru/file/uploads/1_2789-128x128.png" width="30"height="30">
+  </div>
+</div>
+<div class=" col-lg-3 col-md-4 col-12   card" >
+  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img" class="card-img-top" alt="...">
+  <div class="text-center card-body">
+    <a  href="#"style="font-size: 25px; border:none; color:black">Iphone XR</a>
+     <p class="card-text text-center mt-5 mb-5" style="
+        font-size: 30px; color:#4dd2ff;"  > $780 </p>
+    <img class="mb-4" src="https://pngicon.ru/file/uploads/1_2789-128x128.png" width="30"height="30">
+  </div>
+</div>
+<div class=" col-lg-3 col-md-4 col-12   card" >
+  <img src="https://www.thesource.ca/medias/20190114083647-108078933-A.jpg-mediaConversion-640-x-480-mediaConversion-400-x-300-0?context=bWFzdGVyfGltYWdlc3w0MTIzM3xpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGEzLzkxMzc0OTIzNjEyNDYuanBnfDJjY2RhYTRkNWJjNDdlZTAwZTYyZTE0NTNjM2YxNWM4ZDc4YTc0MmU4N2IyM2JkMTI0NjFiOWJlMmU5NWU3NTc" class="card-img" class="card-img-top" alt="...">
+  <div class="text-center card-body">
+    <a  href="#"style="font-size: 25px; border:none; color:black">Iphone XR</a>
+     <p class="card-text text-center mt-5 mb-5" style="
+        font-size: 30px; color:#4dd2ff;"  > $780 </p>
+    <img class="mb-4" src="https://pngicon.ru/file/uploads/1_2789-128x128.png" width="30"height="30">
+  </div>
+</div>
 
-<footer class="d-flex align-items-end">
-  <div class="  container  " style="background-color: white">
+          
+        </div>
+</div>
+</div>
+   </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <footer class="d-flex align-items-end">
+  <div class=" container  " style="background-color: white">
     <div class="row">
      <div class="p-0 col-lg-3 col-12 border">
        <a href="#" class=" text-center list-group-item list-group-item-action font-weight-bolder " style="border:none ">CONTACT US</a>
@@ -592,8 +428,8 @@
 </div>
                  <!-- Optional JavaScript -->
                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+                   
                  </body>
                  </html>
+  </body>
+</html>
